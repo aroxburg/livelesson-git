@@ -12,3 +12,4 @@ git diff: compare changes in unstaged files
     git diff --staged: compare changes in staged files
     git diff HEAD~<n>: compare HEAD commit with previous n commit, eg git diff HEAD~2
     git diff <commit hash>: compare HEAD with given commit hash (use git log --oneline to see the commit hashes)
+DO NOT WANT
