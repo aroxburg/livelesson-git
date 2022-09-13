@@ -46,3 +46,7 @@ git switch -c <NAME>: creates a local branch and switches to the new branch
 git branch -a: list current branches
 git branch -d <NAME>: delete the branch locally
 git branch -D <NAME>: force delete the branch locally - use carefully!!
+
+# merge
+1. git switch <BRANCH TO BE MERGED INTO>, eg develop
+2. git merge <BRANCH TO MERGE FROM>, eg feature/my_feature
