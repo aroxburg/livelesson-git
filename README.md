@@ -25,3 +25,4 @@ git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
 
 git remote -v: list the remotes you have
 git push <WHERE> <WHAT>: pushes the WHAT branch to WHERE, eg git push origin master
+git pull <WHERE> <WHAT>: pulls the WHAT branch in WHERE to local computer, eg git pull origin master
