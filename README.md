@@ -22,3 +22,6 @@ git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
             git checkout <branch>
 
 .gitignore file - held in the top level directory, can be overrideen using .gitignore files in lower folders
+
+git remote -v: list the remotes you have
+git push <WHERE> <WHAT>: pushes the WHAT branch to WHERE, eg git push origin master
