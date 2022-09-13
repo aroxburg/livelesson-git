@@ -20,3 +20,5 @@ git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
             git switch -
         or
             git checkout <branch>
+
+.gitignore file - held in the top level directory, can be overrideen using .gitignore files in lower folders
