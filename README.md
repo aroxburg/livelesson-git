@@ -8,3 +8,5 @@ git commit: open text editor to add a commit message
 git restore <FILE>: discard any changes that have been made to the file
 git log: view chamge history
     git log --oneline: view change history summary
+git diff: compare changes in unstaged files
+    git diff --staged: compare changes in unstaged files
