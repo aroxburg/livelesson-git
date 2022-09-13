@@ -12,3 +12,10 @@ git diff: compare changes in unstaged files
     git diff --staged: compare changes in staged files
     git diff HEAD~<n>: compare HEAD commit with previous n commit, eg git diff HEAD~2
     git diff <commit hash>: compare HEAD with given commit hash (use git log --oneline to see the commit hashes)
+git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
+    git checkout <HASH OR HEAD~n> <FILE>: restore file to given commit (older command)
+        git checkout <HASH OR HEAD~n>: no file given, detached HEAD state
+        undo using 
+            git switch -
+        or
+            git checkout <branch>
