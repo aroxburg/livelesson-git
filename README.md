@@ -34,11 +34,18 @@ git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push ori
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
 
 # Merge conflicts
-<<<<<<< HEAD                                        : your local change
+<<<<<<< HEAD                                        : your local change tag
 #I AM SPARTICUS
-=======                                             : divider
+=======                                             : divider tag
 #No, I am Sparticus
->>>>>>> 6bd13ca9990f908b173dd5ac5bfe3375bbb87113    : change on the remote
+>>>>>>> 6bd13ca9990f908b173dd5ac5bfe3375bbb87113    : change on the remote tag
 
 Manually removed the above tags and correct the file.
 
+# branches
+git branch <NAME>: creates a local branch with the given NAME based on the current HEAD location, eg HEAD > develop
+git switch <NAME>: switch to the given branch NAME
+git switch -c <NAME>: creates a local branch and switches to the new branch
+git branch -a: list current branches
+git branch -d <NAME>: delete the branch locally
+git branch -D <NAME>: force delete the branch locally
