@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#I AM SPARTICUS
-=======
 #No, I am Sparticus
->>>>>>> 6bd13ca9990f908b173dd5ac5bfe3375bbb87113
 git init: initialise current folder as a git repo
 git clone: brings the remote repo from URL to current folder
 git status: tells us current repo and its state
@@ -14,6 +10,7 @@ git commit: open text editor to add a commit message
 git restore <FILE>: discard any changes that have been made to the file
 git log: view chamge history
     git log --oneline: view change history summary
+        git log --oneline --graph --all
 git diff: compare changes in unstaged files
     git diff --staged: compare changes in staged files
     git diff HEAD~<n>: compare HEAD commit with previous n commit, eg git diff HEAD~2
@@ -48,4 +45,4 @@ git switch <NAME>: switch to the given branch NAME
 git switch -c <NAME>: creates a local branch and switches to the new branch
 git branch -a: list current branches
 git branch -d <NAME>: delete the branch locally
-git branch -D <NAME>: force delete the branch locally
+git branch -D <NAME>: force delete the branch locally - use carefully!!
