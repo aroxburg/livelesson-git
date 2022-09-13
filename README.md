@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#I AM SPARTICUS
+=======
 #No, I am Sparticus
+>>>>>>> 6bd13ca9990f908b173dd5ac5bfe3375bbb87113
 git init: initialise current folder as a git repo
 git clone: brings the remote repo from URL to current folder
 git status: tells us current repo and its state
@@ -22,9 +26,19 @@ git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
         or
             git checkout <branch>
 
-#SMALL TITLE
 .gitignore file - held in the top level directory, can be overrideen using .gitignore files in lower folders
 
+# Remotes
 git remote -v: list the remotes you have
 git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push origin master
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
+
+# Merge conflicts
+<<<<<<< HEAD                                        : your local change
+#I AM SPARTICUS
+=======                                             : divider
+#No, I am Sparticus
+>>>>>>> 6bd13ca9990f908b173dd5ac5bfe3375bbb87113    : change on the remote
+
+Manually removed the above tags and correct the file.
+
