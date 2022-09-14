@@ -60,3 +60,4 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
                 Then 'git rebase --continue' until all conflicts resolved
                 Then git switch <BRANCH TO BE MERGED INTO>
                 Then git merge <BRANCH TO MERGE FROM>
+        git rebase -i <HASH> or HEAD~n: interactive mode for squashing commits when rebasing
