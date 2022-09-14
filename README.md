@@ -47,8 +47,10 @@ git switch -c <NAME>: creates a local branch and switches to the new branch
 git branch -a: list current branches
 git branch -d <NAME>: delete the branch locally
 git branch -D <NAME>: force delete the branch locally - use carefully!!
-git stash or git commit: save work before moving branches
-
+git stash or git commit: save work before moving branches, stash is temporary, commit is permanent
+    git stash list: show stash commits
+    git stash apply: apply latest stash changes
+    git stash clear: clean up your stashes
 # merge
 1. git switch <BRANCH TO BE MERGED INTO>, eg develop
 2. git merge <BRANCH TO MERGE FROM>, into current branch, eg feature/my_feature
