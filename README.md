@@ -29,6 +29,8 @@ git restore --source <HASH OR HEAD~n> <FILE>: restore file to given commit
 git remote -v: list the remotes you have
 git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push origin master
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
+conflict here git fetch: update your git log without making changes
+conflict here git fetch --prune: delete local branches that no longer exist on the remote
 
 A merge on a remote is a "pull request" or "merge request" depending on the remote system.
 To update a pull/merge request, we make the change on the branch locally then re-push
