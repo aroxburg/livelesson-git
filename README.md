@@ -30,6 +30,8 @@ git remote -v: list the remotes you have
 git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push origin master
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
 
+A merge on a remote is a "pull request" or "merge request" depending on the remote system.
+
 # Merge conflicts
 <<<<<<< HEAD                                        : your local change tag
 #I AM SPARTICUS
