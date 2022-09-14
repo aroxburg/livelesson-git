@@ -58,3 +58,5 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
                 Then 'git add' the corrected file(s)
                 Then git switch <BRANCH TO BE MERGED INTO>
                 Then git merge <BRANCH TO MERGE FROM>
+
+main commit 1
