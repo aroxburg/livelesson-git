@@ -50,5 +50,8 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
 # merge
 1. git switch <BRANCH TO BE MERGED INTO>, eg develop
 2. git merge <BRANCH TO MERGE FROM>, into current branch, eg feature/my_feature
-git rebase: command to change the history of a commit
-    git rebase <BRANCH>: incorporate change from BRANCH into current branch, eg stay on feature branch then run 'git rebase develop'
+    Commits from git merge can be automatically combined:
+        git rebase: command to change the history of a commit
+        git rebase <BRANCH>: incorporate change from BRANCH into current branch, eg stay on feature branch then run 'git rebase develop'
+            Resolve merge conflicts manually
+            Then git add the corrected filed
