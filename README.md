@@ -30,6 +30,9 @@ git remote -v: list the remotes you have
 git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push origin master
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
 
+A merge on a remote is a "pull request" or "merge request" depending on the remote system.
+To update a pull/merge request, we make the change on the branch locally then re-push
+
 # Merge conflicts
 <<<<<<< HEAD                                        : your local change tag
 #I AM SPARTICUS
@@ -64,3 +67,5 @@ git stash or git commit: save work before moving branches, stash is temporary, c
                 Then git switch <BRANCH TO BE MERGED INTO>
                 Then git merge <BRANCH TO MERGE FROM>
         git rebase -i <HASH> or HEAD~n: interactive mode for squashing commits when rebasing
+
+test
