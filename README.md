@@ -31,6 +31,7 @@ git push <WHERE> <WHAT>: pushes (sync) the WHAT branch to WHERE, eg git push ori
 git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer, eg git pull origin master
 git fetch: update your git log without making changes
 git fetch --prune: delete local branches that no longer exist on the remote
+git push -f <WHERE> <WHAT>: force push to the remote WHERE the branch WHAT, typically used after rebasing and fixing merge conflicts
 
 A merge on a remote is a "pull request" or "merge request" depending on the remote system.
 To update a pull/merge request, we make the change on the branch locally then re-push.
