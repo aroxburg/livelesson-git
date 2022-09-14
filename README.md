@@ -62,3 +62,4 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
                 Then git merge <BRANCH TO MERGE FROM>
 
 master commit 1
+master commit 2
