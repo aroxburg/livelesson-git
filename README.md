@@ -54,4 +54,4 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
         git rebase: command to change the history of a commit
         git rebase <BRANCH>: incorporate change from BRANCH into current branch, eg stay on feature branch then run 'git rebase develop'
             Resolve merge conflicts manually
-            Then git add the corrected filed
+            Then 'git add' the corrected file(s)
