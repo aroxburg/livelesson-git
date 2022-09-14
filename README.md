@@ -39,7 +39,8 @@ git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer
 
 Manually removed the above tags and correct the file.
 
-# BranCheS
+# Branches
+
 git branch <NAME>: creates a local branch with the given NAME based on the current HEAD location, eg HEAD > develop
 git switch <NAME>: switch to the given branch NAME
 git switch -c <NAME>: creates a local branch and switches to the new branch
