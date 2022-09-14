@@ -69,5 +69,3 @@ git stash or git commit: save work before moving branches, stash is temporary, c
                 Then git switch <BRANCH TO BE MERGED INTO>
                 Then git merge <BRANCH TO MERGE FROM>
         git rebase -i <HASH> or HEAD~n: interactive mode for squashing commits when rebasing
-
-Lets see if this conflicts
