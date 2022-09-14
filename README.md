@@ -39,7 +39,7 @@ git pull <WHERE> <WHAT>: pulls (sync) the WHAT branch in WHERE to local computer
 
 Manually removed the above tags and correct the file.
 
-# BrAnChes
+# Branches
 
 git branch <NAME>: creates a local branch with the given NAME based on the current HEAD location, eg HEAD > develop
 git switch <NAME>: switch to the given branch NAME
@@ -60,6 +60,3 @@ git branch -D <NAME>: force delete the branch locally - use carefully!!
                 Then 'git rebase --continue' until all conflicts resolved
                 Then git switch <BRANCH TO BE MERGED INTO>
                 Then git merge <BRANCH TO MERGE FROM>
-
-master commit 1
-master commit 2
