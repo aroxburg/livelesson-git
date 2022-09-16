@@ -71,6 +71,12 @@ git stash or git commit: save work before moving branches, stash is temporary, c
                 Then git merge <BRANCH TO MERGE FROM>
         git rebase -i <HASH> or HEAD~n: interactive mode for squashing commits when rebasing
 
+# Git Workflows
+Adding a collaborator.
+Branching workflow.
+Git Flow: special type of branching workflow
+
 #Collaboration
 
 Each person can work on their branch indepedently of others.
+
