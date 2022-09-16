@@ -75,3 +75,8 @@ git stash or git commit: save work before moving branches, stash is temporary, c
 Adding a collaborator.
 Branching workflow.
 Git Flow: special type of branching workflow
+
+#Collaboration
+
+Each person can work on their branch indepedently of others.
+
